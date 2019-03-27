@@ -1,7 +1,7 @@
 # statusbarutils
 沉浸式状态栏工具类
 
-依赖:
+依赖:  
 工作空间下build.gradle设置:  
   allprojects {  
     repositories {
@@ -11,7 +11,7 @@
             url 'https://raw.githubusercontent.com/wankai313/statusbarutils/master'
         }
     }
-}
+}  
 项目下:  
   dependencies {  
 
