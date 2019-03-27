@@ -3,7 +3,7 @@
 
 依赖:
 工作空间下build.gradle设置:
-  allprojects {
+allprojects {
     repositories {
         //... 省略其他
 
@@ -14,8 +14,10 @@
 }
 项目下:
 dependencies {
+
   //... 省略其他
-    implementation 'com.wankai.libaray_statusbar_utils_w:statusbarutils:1.0.0'
+  implementation 'com.wankai.libaray_statusbar_utils_w:statusbarutils:1.0.0'
+  
 }
 StatusBarUtil.initStatusBar(Activity context, boolean isDark);
 设置状态栏字体颜色
